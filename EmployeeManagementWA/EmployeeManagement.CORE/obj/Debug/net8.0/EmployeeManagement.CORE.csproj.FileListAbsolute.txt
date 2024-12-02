@@ -1,0 +1,11 @@
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/bin/Debug/net8.0/EmployeeManagement.CORE.deps.json
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/bin/Debug/net8.0/EmployeeManagement.CORE.dll
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/bin/Debug/net8.0/EmployeeManagement.CORE.pdb
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/obj/Debug/net8.0/EmployeeManagement.CORE.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/obj/Debug/net8.0/EmployeeManagement.CORE.AssemblyInfoInputs.cache
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/obj/Debug/net8.0/EmployeeManagement.CORE.AssemblyInfo.cs
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/obj/Debug/net8.0/EmployeeManagement.CORE.csproj.CoreCompileInputs.cache
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/obj/Debug/net8.0/EmployeeManagement.CORE.dll
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/obj/Debug/net8.0/refint/EmployeeManagement.CORE.dll
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/obj/Debug/net8.0/EmployeeManagement.CORE.pdb
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/obj/Debug/net8.0/ref/EmployeeManagement.CORE.dll

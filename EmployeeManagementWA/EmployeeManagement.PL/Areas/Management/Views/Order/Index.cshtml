@@ -1,0 +1,87 @@
+@using EmployeeManagement.CORE.Models
+@model List<Order>
+
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">
+            <span style="font-size: 2em;"> Orders </span>
+            <span class="float-right">
+                <a type="button" class="btn btn-success" asp-area="Management" asp-controller="Order" asp-action="Create">Create</a>
+            </span>
+            <span class="float-right">
+                <a type="button" class="btn btn-warning mr-3" asp-area="Management" asp-controller="Order" asp-action="Trash">Trash <i class="fa-solid fa-trash"></i></a>
+            </span>
+        </h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" style="width: 100%;" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Client Name</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                    <th>Problem</th>
+                    <th>Service</th>
+                    <th>Master</th>
+                    <th>Is Active</th>
+                    <th>Configures</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>Id</th>
+                    <th>Client Name</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                    <th>Problem</th>
+                    <th>Service</th>
+                    <th>Master</th>
+                    <th>Is Active</th>
+                    <th>Configures</th>
+                </tr>
+                </tfoot>
+                @if (Model != null && Model.Any())
+                {
+                    <tbody>
+                    @foreach (Order item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <span style="position: relative; top: 5px;">@item.Id</span>
+                                <a type="button" class="btn btn-secondary" style="position: relative; top: 5px; left: 5px;" asp-area="Management" asp-action="Details" asp-controller="Order" asp-route-Id="@item.Id">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </a>
+                            </td>
+                            <td><span style="position: relative; top: 10px;">@item.ClientName @item.ClientSurName</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.ClientPhoneNumber</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.ClientEmail</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.Problem</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.Service?.Title</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.Master?.FirstName @item.Master?.LastName</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.IsActive</span></td>
+                            <td>
+                                <a type="button" class="btn btn-primary mt-1 ml-5 mr-3" asp-area="Management" asp-action="Update" asp-controller="Order" asp-route-Id="@item.Id">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                <a type="button" class="btn btn-warning mt-1 mr-3" asp-area="Management" asp-action="SoftDelete" asp-controller="Order" asp-route-Id="@item.Id">
+                                    <i class="fa-sharp fa-solid fa-trash"></i>
+                                </a>
+                                <a type="button" class="btn btn-danger mt-1" asp-area="Management" asp-action="Delete" asp-controller="Order" asp-route-Id="@item.Id">
+                                    <i class="fa-solid fa-delete-left"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                }
+                else
+                {
+                    <h3>No Orders Found</h3>
+                }
+            </table>
+        </div>
+    </div>
+</div>

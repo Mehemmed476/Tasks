@@ -1,0 +1,47 @@
+@using MediPlusApp.MVC.Areas.Admin.ViewModels.AppointmentsViewModels
+@model AppointmentVM
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h4 class="card-title">Add Appointment</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label asp-for="Appointment.DoctorId" class="control-label">Select Doctor</label>
+                            <select asp-for="Appointment.DoctorId" class="form-control">
+                                <option value="">Select Doctor</option>
+                                @foreach (var item in Model.SelectedDoctor)
+                                {
+                                <option value="@item.Value">@item.Text</option>
+                                }
+                            </select>
+
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Appointment.PatientId" class="control-label">Select Patient</label>
+                            <select asp-for="Appointment.PatientId" class="form-control">
+                                <option value="">Select Patient</option>
+                                @foreach (var item in Model.SelectedPatient)
+                                {
+                                <option value="@item.Value">@item.Text</option>
+                                }
+                            </select>
+
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Appointment.AppointmentDate"></label>
+                            <input asp-for="Appointment.AppointmentDate" class="form-control" />
+                            <span asp-validation-for="Appointment.AppointmentDate" class="text-danger"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

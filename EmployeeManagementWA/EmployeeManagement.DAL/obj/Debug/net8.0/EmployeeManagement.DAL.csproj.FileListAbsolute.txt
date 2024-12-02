@@ -1,0 +1,17 @@
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/bin/Debug/net8.0/EmployeeManagement.DAL.deps.json
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/bin/Debug/net8.0/EmployeeManagement.DAL.runtimeconfig.json
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/bin/Debug/net8.0/EmployeeManagement.DAL.dll
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/bin/Debug/net8.0/EmployeeManagement.DAL.pdb
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/bin/Debug/net8.0/EmployeeManagement.CORE.dll
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/bin/Debug/net8.0/EmployeeManagement.CORE.pdb
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/EmployeeManagement.DAL.csproj.AssemblyReference.cache
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/EmployeeManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/EmployeeManagement.DAL.AssemblyInfoInputs.cache
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/EmployeeManagement.DAL.AssemblyInfo.cs
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/EmployeeManagement.DAL.csproj.CoreCompileInputs.cache
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/EmployeeManagement.DAL.csproj.CopyComplete
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/EmployeeManagement.DAL.dll
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/refint/EmployeeManagement.DAL.dll
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/EmployeeManagement.DAL.pdb
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/EmployeeManagement.DAL.genruntimeconfig.cache
+/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/Debug/net8.0/ref/EmployeeManagement.DAL.dll

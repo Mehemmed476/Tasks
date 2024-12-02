@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/MediPlusApp.MVC.props" />
+</Project>

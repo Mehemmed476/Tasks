@@ -1,0 +1,14 @@
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/bin/Debug/net8.0/MediPlusApp.DAL.deps.json
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/bin/Debug/net8.0/MediPlusApp.DAL.dll
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/bin/Debug/net8.0/MediPlusApp.DAL.pdb
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.AssemblyInfoInputs.cache
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.AssemblyInfo.cs
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.csproj.CoreCompileInputs.cache
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.dll
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/refint/MediPlusApp.DAL.dll
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.pdb
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/ref/MediPlusApp.DAL.dll
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/bin/Debug/net8.0/MediPlusApp.DAL.runtimeconfig.json
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.csproj.AssemblyReference.cache
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.genruntimeconfig.cache

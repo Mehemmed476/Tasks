@@ -1,0 +1,56 @@
+@using EmployeeManagement.PL.Areas.Management.ViewModels;
+@model MasterVM
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h4 class="card-title">Add Service</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label asp-for="Master.FirstName" class="control-label">FirstName</label>
+                            <input asp-for="Master.FirstName" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Master.LastName" class="control-label">LastName</label>
+                            <input asp-for="Master.LastName" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Master.Email" class="control-label">Email</label>
+                            <input asp-for="Master.Email" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Master.PhoneNumber" class="control-label">PhoneNumber</label>
+                            <input asp-for="Master.PhoneNumber" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Master.UserName" class="control-label">UserName</label>
+                            <input asp-for="Master.UserName" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Master.ExperienceYear" class="control-label">ExperienceYear</label>
+                            <input asp-for="Master.ExperienceYear" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Master.IsActive" class="control-label">Is Active</label>
+                            <input asp-for="Master.IsActive" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Master.ServiceId" class="control-label">Select Service</label>
+                            <select asp-for="Master.ServiceId" class="form-control">
+                                <option value="">Select Patient</option>
+                                @foreach (var item in Model.Services)
+                                {
+                                <option value="@item.Value">@item.Text</option>
+                                }
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

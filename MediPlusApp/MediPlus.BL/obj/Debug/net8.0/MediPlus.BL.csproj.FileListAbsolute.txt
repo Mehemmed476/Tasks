@@ -1,0 +1,15 @@
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/bin/Debug/net8.0/MediPlus.BL.deps.json
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/bin/Debug/net8.0/MediPlus.BL.dll
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/bin/Debug/net8.0/MediPlus.BL.pdb
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/Debug/net8.0/MediPlus.BL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/Debug/net8.0/MediPlus.BL.AssemblyInfoInputs.cache
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/Debug/net8.0/MediPlus.BL.AssemblyInfo.cs
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/Debug/net8.0/MediPlus.BL.csproj.CoreCompileInputs.cache
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/Debug/net8.0/MediPlus.BL.dll
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/Debug/net8.0/refint/MediPlus.BL.dll
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/Debug/net8.0/MediPlus.BL.pdb
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/Debug/net8.0/ref/MediPlus.BL.dll
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/bin/Debug/net8.0/MediPlusApp.DAL.dll
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/bin/Debug/net8.0/MediPlusApp.DAL.pdb
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/Debug/net8.0/MediPlus.BL.csproj.AssemblyReference.cache
+/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/Debug/net8.0/MediPlus.BL.csproj.CopyComplete

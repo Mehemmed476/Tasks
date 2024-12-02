@@ -1,0 +1,50 @@
+@using MediPlusApp.DAL.Models
+@model List<Schedule>
+    <!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary"> Schedules <span class="float-right"><a type="button" class="btn btn-success" asp-area="Admin" asp-controller="Schedule" asp-action="Index">Active Schedules</a></span></h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Subject</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Button Url</th>
+                    <th>Configures</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>Id</th>
+                    <th>Subject</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Button Url</th>
+                    <th>Configures</th>
+                </tr>
+                </tfoot>
+                <tbody>
+                @foreach (Schedule item in Model)
+                {
+                <tr>
+                    <td><span style="position: relative; top: 18px;">@item.Id</span> <a type="button" class="btn btn-secondary" style="position: relative; top: 18px; left: 15px;"asp-area="Admin" asp-action="Details" asp-controller="Schedule" asp-route-Id="@item.Id"><i class="fa-solid fa-circle-info"></i></a></td>
+                    <td><span style="position: relative; top: 28px;">@item.Subject</span></td>
+                    <td><span style="position: relative; top: 28px;">@item.Title</span></td>
+                    <td><span style="position: relative; top: 28px;">@item.Description</span></td>
+                    <td><span style="position: relative; top: 28px;">@item.ButtonUrl</span></td>
+                    <td><a type="button" class="btn btn-light mt-2 ml-5 mr-3" asp-area="Admin" asp-action="Restore" asp-controller="Schedule" asp-route-Id="@item.Id"><i class="fa-solid fa-rotate-left"></i></a> <a type="button" class="btn btn-danger mt-2" asp-area="Admin" asp-action="Delete" asp-controller="Schedule" asp-route-Id="@item.Id"><i class="fa-solid fa-delete-left"></i></a></td>
+                </tr>
+                }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- /.container-fluid -->

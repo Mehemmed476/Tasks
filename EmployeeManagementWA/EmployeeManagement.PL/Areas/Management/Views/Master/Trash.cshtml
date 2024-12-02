@@ -1,0 +1,65 @@
+@using EmployeeManagement.CORE.Models
+@model List<Master>
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <h6 class="m-0 font-weight-bold text-primary"> Masters <span class="float-right"><a type="button" class="btn btn-success" asp-area="Management" asp-controller="Master" asp-action="Index">Active Masters</a></span></h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" style="width: 100%;" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Full Name</th>
+                    <th>User Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Is Active</th>
+                    <th>Experience Year</th>
+                    <th>Service</th>
+                    <th>Configures</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>Id</th>
+                    <th>Full Name</th>
+                    <th>User Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Is Active</th>
+                    <th>Experience Year</th>
+                    <th>Service</th>
+                    <th>Configures</th>
+                </tr>
+                </tfoot>
+                @if (Model != null && Model.Any())
+                {
+                    <tbody>
+                    @foreach (Master item in Model)
+                    {
+                        <tr>
+                            <td><span style="position: relative; top: 5px;">@item.Id</span> <a type="button" class="btn btn-secondary" style="position: relative; top: 5px; left: 5px;"asp-area="Management" asp-action="Details" asp-controller="Service" asp-route-Id="@item.Id"><i class="fa-solid fa-circle-info"></i></a></td>
+                            <td><span style="position: relative; top: 10px;">@item.FirstName @item.LastName</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.UserName</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.Email</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.PhoneNumber</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.IsActive</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.ExperienceYear</span></td>
+                            <td><span style="position: relative; top: 10px;">@item.Service.Title</span></td>
+                            <td><a type="button" class="btn btn-light mt-2 ml-5 mr-3" asp-area="Management" asp-action="Restore" asp-controller="Master" asp-route-Id="@item.Id"><i class="fa-solid fa-rotate-left"></i></a> <a type="button" class="btn btn-danger mt-2" asp-area="Management" asp-action="Delete" asp-controller="Master" asp-route-Id="@item.Id"><i class="fa-solid fa-delete-left"></i></a></td>
+                        </tr>
+                    }
+                    </tbody>
+                }
+                
+                else
+                {
+                    <h3>No Masters Found</h3>
+                }
+            </table>
+        </div>
+    </div>
+
+
+<!-- /.container-fluid -->

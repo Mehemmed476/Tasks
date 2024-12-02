@@ -1,0 +1,53 @@
+@using MediPlusApp.DAL.Models
+@model List<Patient>
+    <!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary"> Patients <span class="float-right"><a type="button" class="btn btn-success" asp-area="Admin" asp-controller="Patient" asp-action="Index">Active Patients</a></span></h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>User Name</th>
+                    <th>Full Name</th>
+                    <th>Fin Code</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Configures</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>Id</th>
+                    <th>User Name</th>
+                    <th>Full Name</th>
+                    <th>Fin Code</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Configures</th>
+                </tr>
+                </tfoot>
+                <tbody>
+                @foreach (Patient item in Model)
+                {
+                <tr>
+                    <td><span style="position: relative; top: 5px;">@item.Id</span> <a type="button" class="btn btn-secondary" style="position: relative; top: 5px; left: 5px;"asp-area="Admin" asp-action="Details" asp-controller="Patient" asp-route-Id="@item.Id"><i class="fa-solid fa-circle-info"></i></a></td>
+                    <td><span style="position: relative; top: 10px;">@item.UserName</span></td>
+                    <td><span style="position: relative; top: 10px;">@item.Name @item.Surname</span></td>
+                    <td><span style="position: relative; top: 10px;">@item.FinCode</span></td>
+                    <td><span style="position: relative; top: 10px;">@item.Email</span></td>
+                    <td><span style="position: relative; top: 10px;">@item.PhoneNumber</span></td>
+                    <td><a type="button" class="btn btn-light mt-2 ml-5 mr-3" asp-area="Admin" asp-action="Restore" asp-controller="Patient" asp-route-Id="@item.Id"><i class="fa-solid fa-rotate-left"></i></a> <a type="button" class="btn btn-danger mt-2" asp-area="Admin" asp-action="Delete" asp-controller="Patient" asp-route-Id="@item.Id"><i class="fa-solid fa-delete-left"></i></a></td>
+                </tr>
+                }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- /.container-fluid -->

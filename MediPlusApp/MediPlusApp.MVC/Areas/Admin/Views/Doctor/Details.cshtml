@@ -1,0 +1,68 @@
+@using MediPlusApp.DAL.Models
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model MediPlusApp.DAL.Models.Doctor;
+    <!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3"><h6 class="m-0 font-weight-bold text-primary"><span style="font-size: 2em; ">Doctor - Details </span> <span class="float-right"><a type="button" class="btn btn-outline-dark" asp-area="Admin" asp-controller="Doctor" asp-action="Index"><i class="fa-solid fa-circle-arrow-left"></i> Go Back</a> </span></h6>
+    </div>
+    <div class="card-body">
+        <div class="card text-center">
+            <div class="card-header">
+                <h4 style="color: black;">@Model.Id</h4>
+                <a type="button" class="btn btn-primary mt-1 ml-2 mr-3"
+                   asp-area="Admin"
+                   asp-action="Update"
+                   asp-controller="Doctor"
+                   asp-route-Id="@Model.Id">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </a> 
+                @if (!Model.IsDeleted)
+                { 
+                    <a type="button" class="btn btn-warning mt-1 mr-3" 
+                     asp-area="Admin" 
+                     asp-action="SoftDelete" 
+                     asp-controller="Doctor" 
+                     asp-route-Id="@Model.Id">
+                      <i class="fa-sharp fa-solid fa-trash"></i>
+                    </a>
+                }
+                else
+                {
+                    <a type="button" class="btn btn-dark mt-1 mr-3" 
+                     asp-area="Admin" 
+                     asp-action="Restore" 
+                     asp-controller="Doctor" 
+                     asp-route-Id="@Model.Id">
+                      <i class="fa-solid fa-rotate-left"></i>
+                    </a>
+                }    
+                <a type="button" class="btn btn-danger mt-1"
+                   asp-area="Admin"
+                   asp-action="Delete"
+                   asp-controller="Doctor"
+                   asp-route-Id="@Model.Id">
+                    <i class="fa-solid fa-delete-left"></i>
+                </a>
+
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Full Name: @Model.Name @Model.Surname</h5>
+                <h5 class="card-title">User Name: @Model.UserName</h5>
+                <h5 class="card-title">Active: @Model.IsActive</h5>
+                <p class="card-text">Fin Code: @Model.FinCode</p>
+                <p class="card-text">Email: @Model.Email</p>
+                <p class="card-text">Phone Number: @Model.PhoneNumber</p>
+                <p class="card-text">Created: @Model.CreatedDate</p>
+                <p class="card-text">Modified: @Model.ModifiedDate</p>
+                <p class="card-text">Is Deleted: @Model.IsDeleted</p>
+                <p class="card-text">Deleted: @Model.DeletedDate</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+                @(DateTime.Now - Model.CreatedDate)
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- /.container-fluid -->

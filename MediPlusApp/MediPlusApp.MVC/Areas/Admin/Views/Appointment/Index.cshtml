@@ -1,0 +1,57 @@
+@using MediPlusApp.DAL.Models
+@model List<Appointment>
+
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3"><h6 class="m-0 font-weight-bold text-primary"><span style="font-size: 2em; "> Doctors </span> <span class="float-right"><a type="button" class="btn btn-success" asp-area="Admin" asp-controller="Appointment" asp-action="Create">Create Slider</a></span>  <span class="float-right"><a type="button" class="btn btn-warning mr-3" asp-area="Admin" asp-controller="Appointment" asp-action="Trash">Trash <i class="fa-solid fa-trash"></i></a></span></h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" style="width: 100%;" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Doctor</th>
+                    <th>Patient</th>
+                    <th>Appointment Date</th>
+                    <th>Configures</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>Id</th>
+                    <th>Doctor</th>
+                    <th>Patient</th>
+                    <th>Appointment Date</th>
+                    <th>Configures</th>
+                </tr>
+                </tfoot>
+                @if (Model != null) 
+                {
+                    <tbody>
+                    @foreach (Appointment item in Model)
+                    {
+                        <tr>
+                            <td><span style="position: relative; top: 5px;">@item.Id</span> <a type="button" class="btn btn-secondary" style="position: relative; top: 5px; left: 5px;"asp-area="Admin" asp-action="Details" asp-controller="Doctor" asp-route-Id="@item.Id"><i class="fa-solid fa-circle-info"></i></a></td>
+                            <td><span style="position: relative; top: 10px;">
+                                @item.Doctor.Name @item.Doctor.Surname
+                            </span></td>
+                            <td><span style="position: relative; top: 10px;">
+                               @item.Patient.Name @item.Patient.Surname 
+                            </span></td>
+                            <td><span style="position: relative; top: 10px;">@item.AppointmentDate</span></td>
+                            <td><a type="button" class="btn btn-primary mt-1 ml-5 mr-3" asp-area="Admin" asp-action="Update" asp-controller="Appointment" asp-route-Id="@item.Id"><i class="fa-solid fa-pen-to-square"></i></a> <a type="button" class="btn btn-warning mt-1 mr-3" asp-area="Admin" asp-action="SoftDelete" asp-controller="Appointment" asp-route-Id="@item.Id"><i class="fa-sharp fa-solid fa-trash"></i></a> <a type="button" class="btn btn-danger mt-1" asp-area="Admin" asp-action="Delete" asp-controller="Appointment" asp-route-Id="@item.Id"><i class="fa-solid fa-delete-left"></i></a></td>
+                        </tr>
+                    }
+                    </tbody>
+                }
+                else
+                {
+                    <h3>No Services Found</h3>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- /.container-fluid -->

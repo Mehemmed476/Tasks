@@ -1,0 +1,61 @@
+@using EmployeeManagement.CORE.Models
+@model Service
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3"><h6 class="m-0 font-weight-bold text-primary"><span style="font-size: 2em; "> Services </span> <span class="float-right"><a type="button" class="btn btn-success" asp-area="Management" asp-controller="Service" asp-action="Create">Create Slider</a></span>  <span class="float-right"><a type="button" class="btn btn-warning mr-3" asp-area="Management" asp-controller="Service" asp-action="Trash">Trash <i class="fa-solid fa-trash"></i></a></span></h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" style="width: 100%;" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>IsActive</th>
+                    <th>Created Date</th>
+                    <th>Modified Date</th>
+                    <th>Is Deleted</th>
+                    <th>Deleted Date</th>
+                    <th>Configures</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>IsActive</th>
+                    <th>Created Date</th>
+                    <th>Modified Date</th>
+                    <th>Is Deleted</th>
+                    <th>Deleted Date</th>
+                    <th>Configures</th>
+                </tr>
+                </tfoot>
+                    <tbody>
+                    
+                        <tr>
+                            <td><span style="position: relative; top: 5px;">@Model.Id</span></td>
+                            <td><span style="position: relative; top: 10px;">@Model.Title</span></td>
+                            <td><span style="position: relative; top: 10px;">@Model.Description</span></td>
+                            <td><span style="position: relative; top: 10px;">@Model.IsActive</span></td>
+                            <td><span style="position: relative; top: 10px;">@Model.CreatedDate</span></td>
+                            <td><span style="position: relative; top: 10px;">@Model.ModifiedDate</span></td>
+                            <td><span style="position: relative; top: 10px;">@Model.IsActive</span></td>
+                            <td><span style="position: relative; top: 10px;">@Model.IsActive</span></td>
+                        </tr>
+                    
+                    </tbody>
+                
+                
+                else
+                {
+                    <h3>No Services Found</h3>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- /.container-fluid -->
