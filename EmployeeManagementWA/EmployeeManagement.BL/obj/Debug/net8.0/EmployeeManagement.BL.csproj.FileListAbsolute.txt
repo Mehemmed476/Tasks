@@ -15,3 +15,21 @@
 /Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/refint/EmployeeManagement.BL.dll
 /Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/EmployeeManagement.BL.pdb
 /Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/ref/EmployeeManagement.BL.dll
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/bin/Debug/net8.0/EmployeeManagement.BL.deps.json
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/bin/Debug/net8.0/EmployeeManagement.BL.dll
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/bin/Debug/net8.0/EmployeeManagement.BL.pdb
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/bin/Debug/net8.0/EmployeeManagement.CORE.dll
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/bin/Debug/net8.0/EmployeeManagement.DAL.dll
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/bin/Debug/net8.0/EmployeeManagement.DAL.pdb
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/bin/Debug/net8.0/EmployeeManagement.CORE.pdb
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/EmployeeManagement.BL.csproj.AssemblyReference.cache
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/EmployeeManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/EmployeeManagement.BL.AssemblyInfoInputs.cache
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/EmployeeManagement.BL.AssemblyInfo.cs
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/EmployeeManagement.BL.csproj.CoreCompileInputs.cache
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/EmployeeManagement.BL.sourcelink.json
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/EmployeeManagement.BL.csproj.CopyComplete
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/EmployeeManagement.BL.dll
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/refint/EmployeeManagement.BL.dll
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/EmployeeManagement.BL.pdb
+/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/Debug/net8.0/ref/EmployeeManagement.BL.dll

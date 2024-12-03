@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj": {}
+    "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj": {}
   },
   "projects": {
-    "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj": {
+    "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj",
+        "projectUniqueName": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj",
         "projectName": "EmployeeManagement.CORE",
-        "projectPath": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj",
+        "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj",
         "packagesPath": "/Users/mehemmedxelilzade/.nuget/packages/",
-        "outputPath": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/obj/",
+        "outputPath": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mehemmedxelilzade/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

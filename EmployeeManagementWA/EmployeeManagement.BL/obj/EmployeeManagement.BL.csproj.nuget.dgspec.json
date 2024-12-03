@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.BL/EmployeeManagement.BL.csproj": {}
+    "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/EmployeeManagement.BL.csproj": {}
   },
   "projects": {
-    "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.BL/EmployeeManagement.BL.csproj": {
+    "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/EmployeeManagement.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.BL/EmployeeManagement.BL.csproj",
+        "projectUniqueName": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/EmployeeManagement.BL.csproj",
         "projectName": "EmployeeManagement.BL",
-        "projectPath": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.BL/EmployeeManagement.BL.csproj",
+        "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/EmployeeManagement.BL.csproj",
         "packagesPath": "/Users/mehemmedxelilzade/.nuget/packages/",
-        "outputPath": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.BL/obj/",
+        "outputPath": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.BL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mehemmedxelilzade/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/EmployeeManagement.DAL.csproj": {
-                "projectPath": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/EmployeeManagement.DAL.csproj"
+              "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.DAL/EmployeeManagement.DAL.csproj": {
+                "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.DAL/EmployeeManagement.DAL.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj": {
+    "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj",
+        "projectUniqueName": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj",
         "projectName": "EmployeeManagement.CORE",
-        "projectPath": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj",
+        "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj",
         "packagesPath": "/Users/mehemmedxelilzade/.nuget/packages/",
-        "outputPath": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/obj/",
+        "outputPath": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mehemmedxelilzade/.nuget/NuGet/NuGet.Config"
@@ -94,6 +94,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -114,14 +120,14 @@
         }
       }
     },
-    "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/EmployeeManagement.DAL.csproj": {
+    "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.DAL/EmployeeManagement.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/EmployeeManagement.DAL.csproj",
+        "projectUniqueName": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.DAL/EmployeeManagement.DAL.csproj",
         "projectName": "EmployeeManagement.DAL",
-        "projectPath": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/EmployeeManagement.DAL.csproj",
+        "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.DAL/EmployeeManagement.DAL.csproj",
         "packagesPath": "/Users/mehemmedxelilzade/.nuget/packages/",
-        "outputPath": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.DAL/obj/",
+        "outputPath": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mehemmedxelilzade/.nuget/NuGet/NuGet.Config"
@@ -136,8 +142,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj": {
-                "projectPath": "/Users/mehemmedxelilzade/RiderProjects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj"
+              "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj": {
+                "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/EmployeeManagementWA/EmployeeManagement.CORE/EmployeeManagement.CORE.csproj"
               }
             }
           }

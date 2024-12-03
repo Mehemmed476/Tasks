@@ -1,9 +1,10 @@
 using EmployeeManagement.CORE.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManagement.DAL.Contexts;
 
-public class AppDbContext : DbContext
+public class AppDbContext : IdentityDbContext<AppUser>
 {
     /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -15,7 +16,7 @@ public class AppDbContext : DbContext
     DbSet<Service> Services { get; set; }
     DbSet<Master> Masters { get; set; }
     DbSet<Order> Orders { get; set; }
-
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
