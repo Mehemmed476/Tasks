@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj": {}
+    "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj": {}
   },
   "projects": {
-    "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj": {
+    "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj",
+        "projectUniqueName": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj",
         "projectName": "MediPlusApp.DAL",
-        "projectPath": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj",
+        "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj",
         "packagesPath": "/Users/mehemmedxelilzade/.nuget/packages/",
-        "outputPath": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/",
+        "outputPath": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mehemmedxelilzade/.nuget/NuGet/NuGet.Config"

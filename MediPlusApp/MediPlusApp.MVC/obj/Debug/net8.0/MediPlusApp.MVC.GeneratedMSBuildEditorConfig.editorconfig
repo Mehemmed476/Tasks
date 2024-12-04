@@ -17,143 +17,151 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MediPlusApp.MVC
 build_property.RootNamespace = MediPlusApp.MVC
-build_property.ProjectDir = /Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/
+build_property.ProjectDir = /Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC
+build_property.MSBuildProjectDirectory = /Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Appointment/Create.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Appointment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXBwb2ludG1lbnQvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Appointment/Details.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Appointment/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXBwb2ludG1lbnQvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Appointment/Index.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Appointment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXBwb2ludG1lbnQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Appointment/Trash.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Appointment/Trash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXBwb2ludG1lbnQvVHJhc2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Appointment/Update.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Appointment/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXBwb2ludG1lbnQvVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Dashboard/Index.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Doctor/Create.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Doctor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRG9jdG9yL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Doctor/Details.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Doctor/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRG9jdG9yL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Doctor/Index.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Doctor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRG9jdG9yL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Doctor/Trash.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Doctor/Trash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRG9jdG9yL1RyYXNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Doctor/Update.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Doctor/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRG9jdG9yL1VwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Patient/Create.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Hospital/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9zcGl0YWwvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Hospital/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9zcGl0YWwvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Patient/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUGF0aWVudC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Patient/Details.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Patient/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUGF0aWVudC9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Patient/Index.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Patient/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUGF0aWVudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Patient/Trash.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Patient/Trash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUGF0aWVudC9UcmFzaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Patient/Update.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Patient/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUGF0aWVudC9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Schedule/Create.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Schedule/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2NoZWR1bGUvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Schedule/Details.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Schedule/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2NoZWR1bGUvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Schedule/Index.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Schedule/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2NoZWR1bGUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Schedule/Trash.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Schedule/Trash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2NoZWR1bGUvVHJhc2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Schedule/Update.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Schedule/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2NoZWR1bGUvVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Shared/_Layout.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/SliderItem/Create.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/SliderItem/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVySXRlbS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/SliderItem/Details.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/SliderItem/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVySXRlbS9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/SliderItem/Index.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/SliderItem/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVySXRlbS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/SliderItem/Trash.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/SliderItem/Trash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVySXRlbS9UcmFzaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/SliderItem/Update.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/SliderItem/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVySXRlbS9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/_ViewImports.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/_ViewStart.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Views/Home/Index.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Views/Shared/_Layout.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Views/_ViewImports.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/Views/_ViewStart.cshtml]
+[/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

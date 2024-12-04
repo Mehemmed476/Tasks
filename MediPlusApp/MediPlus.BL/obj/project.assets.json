@@ -3002,11 +3002,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/MediPlus.BL.csproj",
+      "projectUniqueName": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlus.BL/MediPlus.BL.csproj",
       "projectName": "MediPlus.BL",
-      "projectPath": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/MediPlus.BL.csproj",
+      "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlus.BL/MediPlus.BL.csproj",
       "packagesPath": "/Users/mehemmedxelilzade/.nuget/packages/",
-      "outputPath": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/obj/",
+      "outputPath": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlus.BL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mehemmedxelilzade/.nuget/NuGet/NuGet.Config"
@@ -3021,8 +3021,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj": {
-              "projectPath": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj"
+            "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj": {
+              "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/MediPlusApp.DAL.csproj"
             }
           }
         }

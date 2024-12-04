@@ -115,6 +115,84 @@ namespace MediPlusApp.DAL.Migrations
                     b.ToTable("Doctors");
                 });
 
+            modelBuilder.Entity("MediPlusApp.DAL.Models.Hospital", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Hospitals");
+                });
+
+            modelBuilder.Entity("MediPlusApp.DAL.Models.HospitalDoctor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("DoctorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("HospitalId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DoctorId");
+
+                    b.HasIndex("HospitalId");
+
+                    b.ToTable("HospitalDoctors");
+                });
+
             modelBuilder.Entity("MediPlusApp.DAL.Models.Patient", b =>
                 {
                     b.Property<int>("Id")
@@ -270,9 +348,35 @@ namespace MediPlusApp.DAL.Migrations
                     b.Navigation("Patient");
                 });
 
+            modelBuilder.Entity("MediPlusApp.DAL.Models.HospitalDoctor", b =>
+                {
+                    b.HasOne("MediPlusApp.DAL.Models.Doctor", "Doctor")
+                        .WithMany("HospitalDoctors")
+                        .HasForeignKey("DoctorId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("MediPlusApp.DAL.Models.Hospital", "Hospital")
+                        .WithMany("HospitalDoctors")
+                        .HasForeignKey("HospitalId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Doctor");
+
+                    b.Navigation("Hospital");
+                });
+
             modelBuilder.Entity("MediPlusApp.DAL.Models.Doctor", b =>
                 {
                     b.Navigation("Appointments");
+
+                    b.Navigation("HospitalDoctors");
+                });
+
+            modelBuilder.Entity("MediPlusApp.DAL.Models.Hospital", b =>
+                {
+                    b.Navigation("HospitalDoctors");
                 });
 
             modelBuilder.Entity("MediPlusApp.DAL.Models.Patient", b =>

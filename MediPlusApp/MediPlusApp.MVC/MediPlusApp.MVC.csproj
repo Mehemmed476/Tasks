@@ -25,6 +25,11 @@
 
     <ItemGroup>
       <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Hospital\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Hospital\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Hospital\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Hospital\Trash.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Hospital\Update.cshtml" />
     </ItemGroup>
 
 </Project>

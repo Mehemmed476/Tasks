@@ -12,4 +12,5 @@ public class Doctor : BaseAuditableEntity
     public string Email { get; set; }
     public string UserName { get; set; }
     public ICollection<Appointment>? Appointments { get; set; }
+    public ICollection<HospitalDoctor>? HospitalDoctors { get; set; }
 }

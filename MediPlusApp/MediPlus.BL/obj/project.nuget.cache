@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JxUUzkX5TGM=",
+  "dgSpecHash": "qDPNaN3qDsM=",
   "success": true,
-  "projectFilePath": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/MediPlus.BL.csproj",
+  "projectFilePath": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlus.BL/MediPlus.BL.csproj",
   "expectedPackageFiles": [
     "/Users/mehemmedxelilzade/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/mehemmedxelilzade/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

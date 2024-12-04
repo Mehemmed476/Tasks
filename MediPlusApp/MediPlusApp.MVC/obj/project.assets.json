@@ -7824,11 +7824,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/MediPlusApp.MVC.csproj",
+      "projectUniqueName": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/MediPlusApp.MVC.csproj",
       "projectName": "MediPlusApp.MVC",
-      "projectPath": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/MediPlusApp.MVC.csproj",
+      "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/MediPlusApp.MVC.csproj",
       "packagesPath": "/Users/mehemmedxelilzade/.nuget/packages/",
-      "outputPath": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.MVC/obj/",
+      "outputPath": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.MVC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mehemmedxelilzade/.nuget/NuGet/NuGet.Config"
@@ -7843,8 +7843,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/MediPlus.BL.csproj": {
-              "projectPath": "/Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlus.BL/MediPlus.BL.csproj"
+            "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlus.BL/MediPlus.BL.csproj": {
+              "projectPath": "/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlus.BL/MediPlus.BL.csproj"
             }
           }
         }

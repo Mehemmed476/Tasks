@@ -12,3 +12,18 @@
 /Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/bin/Debug/net8.0/MediPlusApp.DAL.runtimeconfig.json
 /Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.csproj.AssemblyReference.cache
 /Users/mehemmedxelilzade/RiderProjects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.genruntimeconfig.cache
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/bin/Debug/net8.0/MediPlusApp.DAL.deps.json
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/bin/Debug/net8.0/MediPlusApp.DAL.runtimeconfig.json
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/bin/Debug/net8.0/MediPlusApp.DAL.dll
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/bin/Debug/net8.0/MediPlusApp.DAL.pdb
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.csproj.AssemblyReference.cache
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.AssemblyInfoInputs.cache
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.AssemblyInfo.cs
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.csproj.CoreCompileInputs.cache
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.sourcelink.json
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.dll
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/refint/MediPlusApp.DAL.dll
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.pdb
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/MediPlusApp.DAL.genruntimeconfig.cache
+/Users/mehemmedxelilzade/Desktop/two projects/MediPlusApp/MediPlusApp.DAL/obj/Debug/net8.0/ref/MediPlusApp.DAL.dll

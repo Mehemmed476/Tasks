@@ -18,7 +18,8 @@ public class MediPlusDbContext : DbContext
     public DbSet<Doctor> Doctors { get; set; }
     public DbSet<Patient> Patients { get; set; }
     public DbSet<Appointment> Appointments { get; set; }
-
+    public DbSet<Hospital> Hospitals { get; set; }
+    public DbSet<HospitalDoctor> HospitalDoctors { get; set; }
     override protected void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -32,6 +33,18 @@ public class MediPlusDbContext : DbContext
             .HasOne(e => e.Patient)
             .WithMany(e => e.Appointments)
             .HasForeignKey(e => e.PatientId)
+            .OnDelete(DeleteBehavior.Restrict);
+        
+        modelBuilder.Entity<HospitalDoctor>()
+            .HasOne(e => e.Doctor)
+            .WithMany(e => e.HospitalDoctors)
+            .HasForeignKey(e => e.DoctorId)
+            .OnDelete(DeleteBehavior.Restrict);
+        
+        modelBuilder.Entity<HospitalDoctor>()
+            .HasOne(d => d.Hospital)
+            .WithMany(e => e.HospitalDoctors)
+            .HasForeignKey(d => d.HospitalId)
             .OnDelete(DeleteBehavior.Restrict);
     }
     

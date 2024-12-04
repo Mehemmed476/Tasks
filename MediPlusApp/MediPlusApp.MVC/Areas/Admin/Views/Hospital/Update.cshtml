@@ -1,0 +1,47 @@
+@using MediPlusApp.MVC.Areas.Admin.ViewModels.HospitalVMs
+@model HospitalVM
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h4 class="card-title">Add Hospital</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label asp-for="Hospital.Title" class="control-label">Hospital Title</label>
+                            <input asp-for="Hospital.Title" class="form-control" />
+                            <span asp-validation-for="Hospital.Title" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Hospital.Description" class="control-label">Description</label>
+                            <textarea asp-for="Hospital.Description" class="form-control"></textarea>
+                            <span asp-validation-for="Hospital.Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Hospital.Address" class="control-label">Address</label>
+                            <input asp-for="Hospital.Address" class="form-control" />
+                            <span asp-validation-for="Hospital.Address" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="DoctorIds" class="control-label">Select Doctors</label>
+                            <select asp-for="DoctorIds" class="form-control" multiple="multiple">
+                                @foreach (var item in Model.Doctors)
+                                {
+                                <option value="@item.Value">@item.Text</option>
+                                }
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
